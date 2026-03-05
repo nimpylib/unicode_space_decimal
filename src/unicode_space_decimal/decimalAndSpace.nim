@@ -3,7 +3,7 @@
 from std/unicode import `<%`
 
 import ./[rune_decl, decimal, space]
-import ../../Utils/castChar
+import ./private/castChar
 
 const AsciiDigits = "0123456789"
 proc transformDecimalAndSpaceToASCII*(unicodeStr: openArray[Rune]): string =
