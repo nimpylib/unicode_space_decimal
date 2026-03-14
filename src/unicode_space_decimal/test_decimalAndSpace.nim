@@ -5,7 +5,7 @@
 """\""".`!=`("").assert
 import ./rune_decl
 import ./[decimal, space]
-import ./private/consts
+import ./consts
 when true:
   template range(a, b: int): untyped = a..<b
   template range(n: int): untyped = range(0, n)

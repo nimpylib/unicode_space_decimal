@@ -5,7 +5,7 @@ when defined(nimPreviewSlimSystem):
 from std/algorithm import upperBound
 import std/enumerate
 import ./rune_decl
-import ./private/consts
+import ./consts
 
 template decimalImpl(r: Rune; result: var int; ret) =
   let ir = int r

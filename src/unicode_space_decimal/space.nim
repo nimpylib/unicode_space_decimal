@@ -11,6 +11,6 @@ in which:
 
 And std/unicode lacks isSpace for Rune
 ]#
-import ./private/consts
+import ./consts
 import ./rune_decl
 proc isspace*(r: Rune): bool = r.int in spaces
